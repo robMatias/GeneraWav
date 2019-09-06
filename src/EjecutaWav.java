@@ -19,7 +19,7 @@ public class EjecutaWav {
         String nombreArch;
         String buff;
         int fm, f, duracion;
-        
+            
         try {
             r = new RandomAccessFile(args[0], "r");
             
