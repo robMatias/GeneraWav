@@ -11,7 +11,7 @@
 public class main {
  
     public static void main(String[] args) {
-        Wav wav= new Wav("hola");
+        GeneraWav wav= new GeneraWav("hola");
         wav.GeneraWav("perro", 50, 44100, 1);
     }
 }

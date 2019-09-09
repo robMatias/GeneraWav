@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.nio.*;
 
 
-public class Wav {
+public class GeneraWav {
 	    public String fileName;
 	    /*size offset endian*/
 	    // 4 0 big endian
@@ -39,7 +39,7 @@ public class Wav {
             public String Data;
             public int Bytes_archivo;
 
-    public Wav(String a) {
+    public GeneraWav(String a) {
         this.fileName = a;
         this.Riff = "RIFF";
         this.Tamanio = 0000;
